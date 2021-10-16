@@ -1,0 +1,41 @@
+
+
+
+@media only screen and (max-width:767px){
+    .col-md-3 {
+        width: 50%;
+        float: left;
+        
+    }
+    .col-md-4{
+        width: 50%;
+        float: left;
+    }
+    .col-md-2{
+        width: 50%;
+        float: left;
+        
+    }
+    .five-column .col-md-3 {
+        width: 50%;
+        float: left;
+        
+    }
+    .profile p {
+        font-size: 15px;
+        line-height: 20px;
+        min-height: 43px;
+    }
+    .inline-content img {
+        box-shadow: 0 0 5px #ccc;
+        margin-right: 20px;
+        padding: 5px;
+        width: 30%;
+    }
+    p.inline-content {
+        font-size: 14px;
+    line-height: 24px;
+    min-height: 43px;
+    }
+    
+}

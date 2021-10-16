@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Molugu's Family Tree</title>
+   
+    <style>
+        .block-box{perspective: 1500px;}
+        .block-box img {
+    transform: rotateX( 
+0deg) rotateY( 
+-1010deg) rotateZ( 
+0deg);
+    transition: 1.8s;
+    box-shadow: 0 0 5px #ccc;
+}
+.block-box:hover img {
+   
+    transform: rotateX(
+0) rotateY(
+0) rotateZ(
+0);
+    box-shadow: 0 0 5px #ccc;
+}
+    </style>
+</head>
+
+<body>
+ 
+
+    <section class="profile">
+        <div class="container">
+          
+            <hr />
+            <div class="row  center-col">
+                
+                
+                <div class="col-md-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <a href="javascript:void(0)">
+                        <div class="skilled-box">
+                            <div class="block-box">
+                                <img src="images/srinath.jpg" alt="">
+                            </div>
+                            
+                        </div>
+                    </a>
+                </div>
+
+               
+
+
+            </div>
+        </div>
+    </section>
+    <script>
+        var a = ["anil","akhil","lokesh","surya","ramesh","anil","srinath"]
+        var b = a.indexOf("anil",2);
+        document.write(b);
+
+        function zoo() {
+           var c = 2;
+           function botany(){
+               console.log(c);
+           }
+           botany();
+
+        }
+        zoo();
+    </script>
+   
+</body>
+
+</html>
